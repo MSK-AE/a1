@@ -1,0 +1,95 @@
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+img.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+main h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+section {
+    margin-bottom: 30px;
+}
+.feedback-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.feedback-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.feedback-form button:hover {
+    background-color: #333333;
+}
+footer {
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+footer .social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+.social-links a i {
+    font-size: 24px;
+    color: white; 
+    margin: 0 10px;
+}
