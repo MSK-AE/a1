@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Mohamed Al Katheeri </title>
+    <title>Home - Mohamed Al Katheeri</title>
     <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
         <img src="images/me.jpeg" alt="Profile Picture" class="profile-img">
-        <h1>About Me</h1>
+        <h1>Mohamed Al Katheeri</h1>
+        <p>Information Technology Student</p>
     </header>
     <nav>
         <a href="Home.html">Home</a>
@@ -18,26 +19,27 @@
         <a href="My plan.html">Future Plan</a>
     </nav>
     <main>
-        <section>
-            <h2>Bio & Education</h2>
-            <p>I am Mohamed Al Katheeri, a student from the United Arab Emirates. I graduated from Hamza Secondary School in Abu Dhabi. Now, I study at La Trobe University in Australia, where I am doing a Diploma in Information Technology.
+        <section class="intro">
+            <h2>Welcome to my personal website!</h2>
+            <p>My name is Mohamed Al Katheeri. I am a student at La Trobe College, studying technology and programming. I made this website to share my journey, my goals, and the challenges I have faced. This is a space where I can show my work, my dreams, and what I hope to achieve in the future</p>
+        </section>
+        <section class="feedback-form">
+            <h2>Feedback</h2>
+            <form action="ThankYou.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-I chose this field because I love technology and believe it is an important part of the future. I want to improve my skills and help create smart solutions that support the community and keep up with modern developments.</p>
-        </section>
-        <section>
-            <h2>Skills & Expertise</h2>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>PHP & MySQL</li>
-                <li>Problem-Solving & Critical Thinking</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Latest Project</h2>
-            <p>Building a personal website to showcase my portfolio.</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
-   <footer>
+    <footer>
     <div class="social-links">
         <a href="https://www.instagram.com/f01j_/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://www.snapchat.com/add/msk_a00?invite_id=i9fCSu1F&locale=en_US%40rg%3Dauzzzz&share_id=_d1YM7uKQKmO6yFeODiSZg&sid=6ef3f461c93f4021aa43b458c0eaf6d6" target="_blank"><i class="fab fa-snapchat"></i></a>
@@ -46,5 +48,6 @@ I chose this field because I love technology and believe it is an important part
     </div>
     <p>&copy;Mohamed Al Katheeri 2025</p>
 </footer>
+
 </body>
 </html>
